@@ -1,0 +1,478 @@
+@media screen and (max-width:1024px) {
+    header{
+        font-size: 18px;
+    }
+    #about_me hr{
+        margin-left:56.5%;
+        width: 7%;
+    }
+    #wrap #down #pict img {
+        height: 350px;
+        margin-left: 2%;
+        z-index: 2;
+        top: -50px;
+    }
+    #wrap #down #about_text {
+        width: 45%;
+        margin:3%;
+        font-size: 17px;
+    }
+    #wrap #skils hr{
+        margin-left: 56%;
+        width: 9%;
+    }
+    #wrap #services hr{
+        margin-left: 55%;
+        width: 10.5%;
+    }
+    #wrap #services #serv .b-serv .d-serv{
+        font-size: 14px;
+    }
+    #wrap #projects hr {
+        margin-left: 59%;
+        width: 8%;
+    }
+    #wrap #contact hr {
+        margin-left: 60%;
+        width: 7%;
+    }
+    #wrap #contact #text .medium{
+        padding-top:1.5%;
+    }
+    #wrap #contact #text .text_left{
+        font-size: 16px;
+    }
+    #wrap #contact #text .text_right{
+        font-size: 16px;
+    }
+    #wrap #contact #forma input[type=text],#wrap #contact #forma [type=email],#wrap #contact #forma select{
+        width: 100%;
+        height: 40px;
+    }
+    #wrap #contact #forma input[type=submit]{
+        width: 80%;
+        height: 40px;
+    }
+    #wrap #contact #forma input[type=reset]{
+        width: 80%;
+        height:40px;
+    }
+    footer #right{
+        margin-left: 23%;
+    }
+    footer #left{
+        margin-left:4%;
+    }
+    footer #left ul li {
+        margin-left: 7%;
+    }
+}
+@media screen and (max-width:769px) {
+    header{
+        font-size: 11px;
+    }
+    header #menu{
+        width: 100%;
+        display: block;
+        float: none;
+        justify-content: center;
+    }
+    header ul{
+        padding-top:7%;
+    }
+    #wrap h1{
+        font-size: 27px;
+    }
+    #wrap #services h1{
+        font-size: 27px;
+    }
+    #about_me hr{
+        margin-left:57.5%;
+        width: 8%;
+    }
+    #wrap #down{
+        display: block;
+    }
+    #wrap #down #about_text {
+        width: 70%;
+        margin:4%;
+        font-size: 15px;
+    }
+    #wrap #skils hr{
+        margin-left: 57%;
+    }
+    #wrap #skils #blocs .bloc{
+        width: 30%;
+        height: 90px;
+        font-size:14px;
+        margin:5px,5px;
+        margin-bottom: 10px;
+    }
+    #wrap #skils #blocs{
+        flex-wrap:wrap;
+    }
+    #wrap #down #pict img {
+        height: 300px;
+    }
+    #wrap #services hr{
+        margin-left: 56%;
+        width: 13%;
+    }
+    #wrap #services #serv{
+        width: 100%;
+    }
+    #wrap #services #serv .b-serv .d-serv{
+        font-size: 12px;
+    }
+    #wrap #services #serv .b-serv .d-serv .read:hover + .more{
+        font-size: 9px;
+    }
+    #wrap #projects hr {
+        margin-left: 60.5%;
+        width: 10%;
+    }
+    #wrap #contact #text{
+        margin-bottom: 30%;
+    }
+    #wrap #contact hr {
+        margin-left: 62%;
+    }
+    #wrap #contact #text .medium{
+        padding-top:2.4%;
+    }
+    #wrap #contact #forma input[type=text],#wrap #contact #forma [type=email],#wrap #contact #forma select{
+        width: 90%;
+        height: 30px;
+    }
+    #wrap #contact #forma input[type=submit]{
+        width: 60%;
+        height: 30px;
+    }
+    #wrap #contact #forma input[type=reset]{
+        width: 60%;
+        height:30px;
+    }
+    footer #left {
+        margin-left: 4%;
+      }
+    footer #right{
+        margin-left: 20%;
+        font-size: 12px;
+    }
+    footer #left ul li {
+        margin-left: 7%;
+        font-size: 12px;
+      }
+}
+@media screen and (max-width:426px){
+    header{
+        font-size: 10px;
+    }
+    header ul{
+        padding-top:9%;
+    }
+    #wrap h1{
+        font-size: 24px;
+    }
+    #wrap #services h1{
+        font-size: 24px;
+    }
+    #about_me hr{
+        margin-left:63%;
+        width: 12%;
+    }
+    #wrap #skils hr{
+        margin-left:62%;
+        width: 16%;
+    }
+    #wrap #skils #blocs .bloc{
+        width: 90px;
+        height: 60px;
+        font-size:14px;
+        margin:5px,5px;
+        margin-bottom: 10px;
+    }
+    #wrap #down #pict img {
+        height: 250px;
+        margin-left:15%;
+    }
+    #wrap #down #about_text{
+        font-size: 15px;
+        margin: 3%;
+        width: 90%;
+    }
+    #wrap #services hr{
+        margin-left: 60%;
+        width: 20%;
+    }
+    #wrap #services #serv{
+        width: 100%;
+    }
+    #wrap #services #serv .b-serv .up img{
+        width: 30px;
+        height: 30px;
+    }
+    #wrap #services #serv .b-serv .d-serv{
+        font-size: 8px;
+        margin-left: 5%;
+    }
+    #wrap #services #serv .b-serv .d-serv .read:hover + .more{
+        font-size: 7px;
+    }
+    #wrap #projects hr {
+        margin-left: 67%;
+        width: 16%;
+        height: 0.5px;
+    }
+    #wrap #projects #projct img {
+        display:block;
+        width: 80%;
+        margin-left:10%;
+    }
+    #wrap #contact #text{
+        margin-bottom: 3%;
+    }
+    #wrap #contact hr {
+        margin-left: 68.5%;
+        width: 14%;
+    }
+    #wrap #contact #text .medium{
+        padding-top:2.6%;
+    }
+    #wrap #contact #text .text_left{
+        font-size: 12px;
+    }
+    #wrap #contact #text .text_right{
+        font-size: 12px;
+    }
+    #wrap #contact #forma .grid{
+        display: block;
+    }
+    #wrap #contact #forma input[type=text],#wrap #contact #forma [type=email],#wrap #contact #forma select{
+        width: 90%;
+        height: 20px;
+    }
+    #wrap #contact #forma input[type=submit]{
+        width: 80%;
+        height: 20px;
+    }
+    #wrap #contact #forma input[type=reset]{
+        width: 80%;
+        height:20px;
+    }
+    #wrap #contact #forma textarea{
+        padding-left: 2%;
+        width: 85%;
+    }
+    #wrap #contact #forma #subject {
+        margin-left: 3%;
+      }
+      
+    footer #left {
+        margin-left: 2.3%;
+      }
+    footer #right{
+        margin-left: 12%;
+        font-size: 8px;
+    }
+    footer #left ul li {
+        margin-left: 3%;
+        font-size: 8px;
+      }
+}
+@media screen and (max-width:376px){
+    header{
+        font-size: 12px;
+        height: 120px;
+    }
+    header ul{
+        padding-top:6%;
+        display: block;
+    }
+    #wrap h1{
+        font-size: 21px;
+    }
+    #wrap #services h1{
+        font-size: 21px;
+    }
+    #about_me hr{
+        margin-left:63%;
+        width: 15%;
+    }
+    #wrap #skils hr{
+        margin-left:62.5%;
+        width: 16%;
+    }
+    #wrap #skils #blocs .bloc{
+        width: 40%;
+        height: 90px;
+        font-size: 13px;
+    }
+    #wrap #down{
+        display: block;
+    }
+    #wrap #down #pict img {
+        height: 200px;
+        margin-left:25%;
+    }
+    #wrap #down #about_text{
+        font-size: 12px;
+        margin: 3%;
+        width: 90%;
+    }
+    #wrap #services hr{
+        margin-left: 60%;
+        width: 21%;
+        height: 0.5px;
+    }
+    #wrap #services #serv{
+        width: 100%;
+    }
+    #wrap #services #serv .b-serv .up img{
+        width: 28px;
+        height: 30px;
+    }
+    #wrap #services #serv .b-serv .d-serv{
+        font-size: 7.5px;
+        margin-left: 5%;
+    }
+    #wrap #services #serv .b-serv .d-serv .read:hover + .more{
+        font-size: 7px;
+    }
+    #wrap #projects hr {
+        margin-left: 68%;
+    }
+    #wrap #projects #projct img {
+        display:block;
+        width: 70%;
+        margin-left:15%;
+    }
+    #wrap #contact hr {
+        margin-left:69%;
+        height: 0.5px;
+    }
+    #wrap #contact #text .medium{
+        padding-top:2.8%;
+        font-size: 18px;
+    }
+    #wrap #contact #text .text_left{
+        font-size: 10px;
+    }
+    #wrap #contact #text .text_right{
+        font-size: 10px;
+    }
+    footer #left {
+        margin-left: 2%;
+      }
+    footer #right{
+        margin-left: 11%;
+        font-size: 8px;
+    }
+    footer #left ul li {
+        margin-left: 2.5%;
+        font-size: 7px;
+      }
+}
+@media screen and (max-width:321px){
+    header{
+        font-size: 12px;
+    }
+    header #menu{
+        float: none;
+        justify-content: center;
+        width: 100%;
+    }
+    header ul{
+        padding-top:8%;
+    }
+    #wrap h1{
+        font-size: 20px;
+    }
+    #wrap #services h1{
+        font-size: 20px;
+    }
+    #about_me hr{
+        margin-left:65.5%;
+        height: 0.5px;
+    }
+    #wrap #skils hr{
+        margin-left:65%;
+        height: 0.5px;
+    }
+    #wrap #skils #blocs .bloc{
+        height: 80px;
+        font-size: 12.5px;
+    }
+    #wrap #down{
+        display: block;
+    }
+    #wrap #down #pict img {
+        height: 180px;
+        margin-left:20%;
+    }
+    #wrap #down #about_text{
+        font-size: 12px;
+        margin: 3%;
+        width: 90%;
+    }
+    #wrap #services hr{
+        margin-left: 61%;
+        width: 24%;
+    }
+    #wrap #services #serv{
+        width: 100%;
+    }
+    #wrap #services #serv .b-serv .up img{
+        width: 25px;
+        height: 25px;
+    }
+    #wrap #services #serv .b-serv .d-serv{
+        font-size: 7px;
+        margin-left: 5%;
+    }
+    #wrap #services #serv .b-serv .d-serv .read:hover + .more{
+        font-size: 6px;
+    }
+    #wrap #projects hr {
+        margin-left: 70%;
+        width: 21%;
+    }
+    #wrap #contact hr {
+        margin-left:72%;
+    }
+    #wrap #contact #text .medium{
+        padding-top:2%;
+    }
+    #wrap #contact #text .text_left{
+        font-size: 9px;
+    }
+    #wrap #contact #text .text_right{
+        font-size: 9px;
+    }
+    #wrap #contact #forma input[type=text],#wrap #contact #forma [type=email],#wrap #contact #forma select{
+        width: 90%;
+    }
+    #wrap #contact #forma input[type=submit]{
+        width: 80%;
+    }
+    #wrap #contact #forma input[type=reset]{
+        width: 80%;
+    }
+    #wrap #contact #forma textarea{
+        width: 100%;
+    }
+    #wrap #contact #forma #subject {
+        margin-left: 2%;
+      } 
+    footer #left {
+        margin-left: 2%;
+      }
+    footer #right{
+        margin-left: 10%;
+        font-size: 7.5px;
+    }
+    footer #left ul li {
+        margin-left: 2%;
+        font-size: 6.5px;
+      }
+}
